@@ -1,3 +1,5 @@
+
+
 package iterator.pdp.jp.ac.it_college.std.s14011.pdp.iterator;
 
 import javafx.scene.text.TextBuilder;
@@ -28,8 +30,11 @@ import javax.xml.parsers.FactoryConfigurationError;
 
 public class Main {
     public static void main(String[] args) {
+        jp.ac.it_college.std.s14011.pdp.decorator.Main.main(args);
 
     }
+
+
 
     private static void strategyMain(String[] args) {
         if (args.length != 2) {
